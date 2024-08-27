@@ -1,5 +1,5 @@
 # Internet failover multiple dhcp client using detect-Internet
-# First set up detec Internet with interface/detect-interface.rsc
+# First set up detect Internet with interface/detect-interface.rsc
 
 # Example
 # dhcp client on ether1 with default route distance = 1 (as main)
