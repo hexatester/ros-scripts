@@ -1,5 +1,6 @@
 # Exported from hEX PoE
 # Please ajust accordingly
+# DONT forget to execute script MQTT-PoE with scheduler
 
 /system script
 add dont-require-permissions=no name=MQTT-PoE owner=tik-script policy=read,write,test,sniff,sensitive source="# Required packages: iot\r\
