@@ -1,6 +1,6 @@
 # tik-srcipt
 
-RouterOS scripts (mainly RouterOS v7)
+Curated RouterOS scripts (mainly RouterOS v7)
 
 [Bahasa Indonesia](/README.ID.md)
 
