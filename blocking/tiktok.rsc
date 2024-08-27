@@ -1,6 +1,6 @@
 /ip/firewall/raw/add dst-address-list=tiktok action=drop comment="drop: tiktok"
 
-/ip/firwall/address-list
+/ip/firewall/address-list
 add list=tiktok address=www.tiktok.com comment="drop: tiktok"
 
 /ip/dns/static
