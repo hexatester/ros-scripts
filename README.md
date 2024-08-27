@@ -1,10 +1,10 @@
-# tik-srcipt
+# ros-scripts
 
 Curated RouterOS scripts (mainly RouterOS v7)
 
 [Bahasa Indonesia](/README.ID.md)
 
-[Download as ZIP](https://github.com/hexatester/tik-srcipt/archive/refs/heads/main.zip)
+[Download as ZIP](https://github.com/hexatester/ros-scripts/archive/refs/heads/main.zip)
 
 Collections
 

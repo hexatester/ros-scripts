@@ -1,5 +1,5 @@
-# tik-srcipt
+# ros-scripts
 
 Koleksi script RouterOS
 
-[Download ZIP](https://github.com/hexatester/tik-srcipt/archive/refs/heads/main.zip)
+[Download ZIP](https://github.com/hexatester/ros-scripts/archive/refs/heads/main.zip)
