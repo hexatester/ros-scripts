@@ -1,6 +1,7 @@
 # Exported from hEX PoE
 # Please ajust accordingly
 # DONT forget to execute script MQTT-PoE with scheduler
+# /system script run MQTT-PoE
 
 /system script
 add dont-require-permissions=no name=MQTT-PoE owner=tik-script policy=read,write,test,sniff,sensitive source="# Required packages: iot\r\
@@ -20,6 +21,7 @@ add dont-require-permissions=no name=MQTT-PoE owner=tik-script policy=read,write
     \npublish broker=\$broker topic=\"\$topic/ether4\" message=[/interface ethernet get ether4 poe-out ]\r\
     \npublish broker=\$broker topic=\"\$topic/ether5\" message=[/interface ethernet get ether5 poe-out ]"
 
+# Subscribe to mqtt topic for setting poe-out
 /iot mqtt subscriptions
 add broker=IoT on-message=":if ([/interface/ethernet/get ether2 poe-out]!=\$msgData) do={\r\
     \n/interface/ethernet/set ether2 poe-out=\$msgData\r\
