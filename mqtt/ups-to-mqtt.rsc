@@ -14,4 +14,4 @@ add interval=30s name=UPS-MQTT on-event=":local RUNTIMELEFT\
     \n:set pwrLoad \$load\
     \n}\
     \n:local message \"{\\\"load\\\":\$pwrLoad,\\\"charge\\\":\$batteryCharge,\\\"voltage\\\":\$batteryVoltage,\\\"runtime\\\":\\\"\$runtime\\\"}\"\
-    \n/iot mqtt publish broker=\"BUMDes\" topic=\"ups/MyUPS/status\" message=\$message" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-time=startup
+    \n/iot mqtt publish broker=\"IoT\" topic=\"ups/MyUPS/status\" message=\$message" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-time=startup
