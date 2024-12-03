@@ -12,3 +12,4 @@ Collections
 - [Blocking Services](/blocking/README.md)
 - [MQTT](/mqtt/README.md)
 - [Multi WAN](/multi-wan/README.md)
+- [Scheduler](/scheduler/README.md)
