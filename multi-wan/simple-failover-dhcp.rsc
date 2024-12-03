@@ -5,6 +5,10 @@
 # dhcp client on ether1 with default route distance = 1 (as main)
 # dhcp client on ether2 with default route distance = 2 (as backup)
 
+# This scheduler will change the default route distance based on detect-internet every 2 minutes
+# Only works with dhcp-client
+# Without firewall mangle/ routing table config
+
 /system scheduler
 add interval=2m name=Detnet on-event=":foreach \$dhcpclient in=[/ip dhcp-client find status=bound] do={\r\
     \n:local interface [/ip dhcp-client get \$dhcpclient interface]\r\
